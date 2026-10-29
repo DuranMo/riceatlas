@@ -14,7 +14,6 @@ A webring for Rice University computer science students.
      "url": "https://your-website.com/"
    }
    ```
-
 3. Open a pull request.
 
 ## Widget
@@ -54,6 +53,6 @@ You can make your own or start with these:
 | <a href="https://cs.riceatlas.com/assets/owl-blue.svg"><img src="assets/owl-blue.svg" alt="Blue owl" width="40"></a> | <a href="https://cs.riceatlas.com/assets/owl-black.svg"><img src="assets/owl-black.svg" alt="Black owl" width="40"></a> | <a href="https://cs.riceatlas.com/assets/owl-gray.svg"><img src="assets/owl-gray.svg" alt="Gray owl" width="40"></a> |
 | [SVG](https://cs.riceatlas.com/assets/owl-blue.svg) | [SVG](https://cs.riceatlas.com/assets/owl-black.svg) | [SVG](https://cs.riceatlas.com/assets/owl-gray.svg) |
 
-## Visual style
+## Acknowledgement
 
-Rice navy, bright blue links, a light-blue background. Cormorant Garamond headings and Lato body text.
+ [XXIIVV's webring](#https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](#https://cs.uwatering.com/) were the two biggest sources of inspiration for the [Rice Atlas](#cs.riceatlas.com) (check them out!)
