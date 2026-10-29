@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+  --background: #d6e4f5;
+  --text: #111111;
+  --link: #0000ee;
+  --heading: #00205b;
+  --border: #c8d2df;
+  --muted: #111111;
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --sans: "Lato", "Segoe UI", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.7;
+}
+main { width: 580px; max-width: calc(100% - 32px); margin: 16px; }
+h1, h2 { font-family: var(--serif); color: var(--heading); font-weight: 500; line-height: 1.2; }
+h1 { font-size: 28px; margin: 0 0 16px; }
+h2 { font-size: 28px; margin: 0 0 16px; }
+p { margin: 0 0 14px; }
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--text); outline-offset: 4px; }
+.muted, footer { font-family: var(--sans); font-size: 13px; color: var(--muted); }
+.directory-heading { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.directory-heading img { flex: none; object-fit: contain; }
+.directory-heading h1 { margin: 0; }
+.directory-page { width: 900px; }
+.member-list { margin: 0; padding-left: 28px; font-size: 13px; column-count: 4; column-gap: 36px; }
+.member-list li { padding-left: 3px; margin: 2px 0; break-inside: avoid; overflow-wrap: anywhere; }
+.demo-member { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+.member-year { margin-left: 12px; font-size: 12px; color: var(--muted); }
+ol { padding-left: 25px; }
+li { margin-bottom: 10px; }
+code { font-family: "Consolas", "Courier New", monospace; font-size: .85em; overflow-wrap: anywhere; }
+button { font: inherit; padding: 8px 14px; border: 1px solid #bac8da; border-radius: 3px; color: var(--link); background: #e1e8f2; cursor: pointer; font-size: 13px; }
+button:hover { background: #d5e0ef; }
+button:disabled { opacity: .55; cursor: default; }
+footer { margin-top: 24px; padding-top: 12px; position: relative; }
+footer::before { content: ""; position: absolute; top: 0; left: 0; width: min(50vw, calc(100vw - 32px)); border-top: 1px solid #000; }
+.directory-page #members-status:empty { display: none; }
+@media (max-width: 760px) {
+  .member-list { column-count: 2; }
+}
+@media (max-width: 600px) {
+  main { margin: 12px; max-width: calc(100% - 24px); }
+}
+@media (max-width: 360px) {
+  .member-list { column-count: 1; }
+}
