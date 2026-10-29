@@ -34,7 +34,6 @@ a:hover { text-decoration-thickness: 2px; }
 .directory-page { width: 900px; }
 .member-list { margin: 0; padding-left: 28px; font-size: 13px; column-count: 4; column-gap: 36px; }
 .member-list li { padding-left: 3px; margin: 2px 0; break-inside: avoid; overflow-wrap: anywhere; }
-.demo-member { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
 .member-year { margin-left: 12px; font-size: 12px; color: var(--muted); }
 ol { padding-left: 25px; }
 li { margin-bottom: 10px; }
