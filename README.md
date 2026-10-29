@@ -55,4 +55,4 @@ You can make your own or start with these:
 
 ## Acknowledgement
 
- [XXIIVV's webring](#https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](#https://cs.uwatering.com/) were the two biggest sources of inspiration for the [Rice Atlas](#cs.riceatlas.com) (check them out!)
+ [XXIIVV's webring](https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](https://cs.uwatering.com/) were the two biggest sources of inspiration for the [Rice Atlas](cs.riceatlas.com) (check them out!)
