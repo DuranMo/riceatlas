@@ -1,4 +1,4 @@
-# Rice CS Atlas
+# The Rice CS Atlas
 
 A webring for Rice University computer science students.
 
