@@ -17,6 +17,7 @@ The unofficial webring for students at Rice University.
    }
    ```
 3. Open a pull request.
+4. star the repo!!!
 
 ## Widget
 
