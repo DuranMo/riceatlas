@@ -1,6 +1,6 @@
 # The Rice Atlas
 
-The unofficial webring of Rice University.
+The unofficial webring for students at Rice University.
 
 ## Join
 
@@ -11,7 +11,7 @@ The unofficial webring of Rice University.
    {
      "netid": "yournetid",
      "name": "Your Name",
-     "degree": "BA, Architecture",
+     "degree": "Architecture",
      "year": 2028,
      "url": "https://your-website.com/"
    }
