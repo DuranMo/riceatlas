@@ -3,27 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A small ring of personal websites by Rice University computer science students.">
-  <title>Rice CS Atlas</title>
+  <meta name="description" content="A webring for Rice University students.">
+  <title>The Rice Atlas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="main.js"></script>
+  <script type="module" src="theme.js"></script>
 </head>
 <body>
+  <svg id="constellation" viewBox="0 0 1000 800" preserveAspectRatio="none" aria-hidden="true" focusable="false"></svg>
   <main class="directory-page">
     <header class="directory-heading">
       <img src="assets/owl-blue.svg" alt="" width="27" height="32">
-      <h1>Rice CS Atlas</h1>
+      <h1>The Rice Atlas</h1>
     </header>
     <p id="members-status" role="status">Loading members…</p>
     <button id="retry-members" type="button" hidden>try again</button>
-    <ol id="members" class="member-list" aria-label="Members"></ol>
+    <div class="member-directory">
+      <table class="member-list" aria-label="Rice students">
+        <thead><tr><th scope="col">Name</th><th scope="col">Degree</th><th scope="col">Graduation year</th><th scope="col">Website</th></tr></thead>
+        <tbody id="members"></tbody>
+      </table>
+    </div>
     <footer>
-      <!-- Replace the placeholder repository URL once the hosting repository exists. -->
-      <p>A webring for Rice CS students. Join by <a href="https://github.com/OWNER/REPOSITORY">submitting a pull request</a>.</p>
+      <p>The unofficial webring for students at Rice University. Join by <a href="https://github.com/DuranMo/riceatlas">submitting a pull request</a>.</p>
       <p><a href="nav.html?dir=random">visit a random site</a></p>
+      <p class="constellation-refresh"><a href="./">refresh</a> for a new <a href="#night-mode" id="theme-toggle" aria-label="Toggle night mode">constellation</a></p>
     </footer>
     <noscript><p>Enable JavaScript to load the member list.</p></noscript>
   </main>

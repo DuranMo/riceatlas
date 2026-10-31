@@ -1,6 +1,6 @@
-# The Rice CS Atlas
+# The Rice Atlas
 
-A webring for Rice University computer science students.
+The unofficial webring of Rice University.
 
 ## Join
 
@@ -11,6 +11,8 @@ A webring for Rice University computer science students.
    {
      "netid": "yournetid",
      "name": "Your Name",
+     "degree": "BA, Architecture",
+     "year": 2028,
      "url": "https://your-website.com/"
    }
    ```
@@ -23,22 +25,22 @@ Replace `NETID` with your Rice NetID.
 ### HTML
 
 ```html
-<nav aria-label="Rice CS Atlas" style="display:inline-flex;align-items:center;gap:12px;">
-  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&amp;dir=prev" aria-label="Previous website in Rice CS Atlas" style="color:inherit;padding:6px;">←</a>
-  <a href="https://cs.riceatlas.com/" aria-label="Rice CS Atlas directory" style="padding:4px;">
-    <img src="https://cs.riceatlas.com/assets/owl-blue.svg" alt="Rice CS Atlas" width="30" height="36" style="display:block;object-fit:contain;">
+<nav aria-label="The Rice Atlas" style="display:inline-flex;align-items:center;gap:12px;">
+  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&amp;dir=prev" aria-label="Previous website in The Rice Atlas" style="color:inherit;padding:6px;">←</a>
+  <a href="https://cs.riceatlas.com/" aria-label="The Rice Atlas directory" style="padding:4px;">
+    <img src="https://cs.riceatlas.com/assets/owl-blue.svg" alt="The Rice Atlas" width="30" height="36" style="display:block;object-fit:contain;">
   </a>
-  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&amp;dir=next" aria-label="Next website in Rice CS Atlas" style="color:inherit;padding:6px;">→</a>
+  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&amp;dir=next" aria-label="Next website in The Rice Atlas" style="color:inherit;padding:6px;">→</a>
 </nav>
 ```
 
 ### JSX
 
 ```jsx
-<nav aria-label="Rice CS Atlas" style={{ display: 'inline-flex', alignItems: 'center', gap: 12 }}>
+<nav aria-label="The Rice Atlas" style={{ display: 'inline-flex', alignItems: 'center', gap: 12 }}>
   <a href="https://cs.riceatlas.com/nav.html?netid=NETID&dir=prev" aria-label="Previous website">←</a>
   <a href="https://cs.riceatlas.com/">
-    <img src="https://cs.riceatlas.com/assets/owl-black.svg" alt="Rice CS Atlas" width={30} height={36} />
+    <img src="https://cs.riceatlas.com/assets/owl-black.svg" alt="The Rice Atlas" width={30} height={36} />
   </a>
   <a href="https://cs.riceatlas.com/nav.html?netid=NETID&dir=next" aria-label="Next website">→</a>
 </nav>
@@ -55,4 +57,4 @@ You can make your own or start with these:
 
 ## Acknowledgements
 
- [XXIIVV's webring](https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](https://cs.uwatering.com/) were the two biggest sources of inspiration for the [Rice Atlas](cs.riceatlas.com) (check them out!)
+ [XXIIVV's webring](https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](https://cs.uwatering.com/) were the two biggest sources of inspiration for the [The Rice Atlas](https://cs.riceatlas.com) (check them out!)

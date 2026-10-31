@@ -24,8 +24,14 @@ export function validateMembers(data) {
     if (member.year !== undefined && !/^\d{4}$/.test(String(member.year))) {
       throw new Error('Graduation years must have four digits.');
     }
+    if (member.degree !== undefined && (typeof member.degree !== 'string' || !member.degree.trim())) {
+      throw new Error('A member has an invalid degree.');
+    }
     ids.add(member.netid);
-    return { netid: member.netid, name: member.name.trim(), url: url.href, year: member.year };
+    return {
+      netid: member.netid, name: member.name.trim(), url: url.href,
+      degree: member.degree?.trim(), year: member.year,
+    };
   });
 }
 
