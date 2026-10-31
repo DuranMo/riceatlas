@@ -26,11 +26,11 @@ Replace `NETID` with your Rice NetID.
 
 ```html
 <nav aria-label="The Rice Atlas" style="display:inline-flex;align-items:center;gap:12px;">
-  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&amp;dir=prev" aria-label="Previous website in The Rice Atlas" style="color:inherit;padding:6px;">←</a>
-  <a href="https://cs.riceatlas.com/" aria-label="The Rice Atlas directory" style="padding:4px;">
-    <img src="https://cs.riceatlas.com/assets/owl-blue.svg" alt="The Rice Atlas" width="30" height="36" style="display:block;object-fit:contain;">
+  <a href="https://riceatlas.com/nav.html?netid=NETID&amp;dir=prev" aria-label="Previous website in The Rice Atlas" style="color:inherit;padding:6px;">←</a>
+  <a href="https://riceatlas.com/" aria-label="The Rice Atlas directory" style="padding:4px;">
+    <img src="https://riceatlas.com/assets/owl-blue.svg" alt="The Rice Atlas" width="30" height="36" style="display:block;object-fit:contain;">
   </a>
-  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&amp;dir=next" aria-label="Next website in The Rice Atlas" style="color:inherit;padding:6px;">→</a>
+  <a href="https://riceatlas.com/nav.html?netid=NETID&amp;dir=next" aria-label="Next website in The Rice Atlas" style="color:inherit;padding:6px;">→</a>
 </nav>
 ```
 
@@ -38,11 +38,11 @@ Replace `NETID` with your Rice NetID.
 
 ```jsx
 <nav aria-label="The Rice Atlas" style={{ display: 'inline-flex', alignItems: 'center', gap: 12 }}>
-  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&dir=prev" aria-label="Previous website">←</a>
-  <a href="https://cs.riceatlas.com/">
-    <img src="https://cs.riceatlas.com/assets/owl-black.svg" alt="The Rice Atlas" width={30} height={36} />
+  <a href="https://riceatlas.com/nav.html?netid=NETID&dir=prev" aria-label="Previous website">←</a>
+  <a href="https://riceatlas.com/">
+    <img src="https://riceatlas.com/assets/owl-black.svg" alt="The Rice Atlas" width={30} height={36} />
   </a>
-  <a href="https://cs.riceatlas.com/nav.html?netid=NETID&dir=next" aria-label="Next website">→</a>
+  <a href="https://riceatlas.com/nav.html?netid=NETID&dir=next" aria-label="Next website">→</a>
 </nav>
 ```
 
@@ -52,9 +52,9 @@ You can make your own or start with these:
 
 | Blue | Black | Gray |
 | --- | --- | --- |
-| <a href="https://cs.riceatlas.com/assets/owl-blue.svg"><img src="assets/owl-blue.svg" alt="Blue owl" width="40"></a> | <a href="https://cs.riceatlas.com/assets/owl-black.svg"><img src="assets/owl-black.svg" alt="Black owl" width="40"></a> | <a href="https://cs.riceatlas.com/assets/owl-gray.svg"><img src="assets/owl-gray.svg" alt="Gray owl" width="40"></a> |
-| [SVG](https://cs.riceatlas.com/assets/owl-blue.svg) | [SVG](https://cs.riceatlas.com/assets/owl-black.svg) | [SVG](https://cs.riceatlas.com/assets/owl-gray.svg) |
+| <a href="https://riceatlas.com/assets/owl-blue.svg"><img src="assets/owl-blue.svg" alt="Blue owl" width="40"></a> | <a href="https://riceatlas.com/assets/owl-black.svg"><img src="assets/owl-black.svg" alt="Black owl" width="40"></a> | <a href="https://riceatlas.com/assets/owl-gray.svg"><img src="assets/owl-gray.svg" alt="Gray owl" width="40"></a> |
+| [SVG](https://riceatlas.com/assets/owl-blue.svg) | [SVG](https://riceatlas.com/assets/owl-black.svg) | [SVG](https://riceatlas.com/assets/owl-gray.svg) |
 
 ## Acknowledgements
 
- [XXIIVV's webring](https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](https://cs.uwatering.com/) were the two biggest sources of inspiration for the [The Rice Atlas](https://cs.riceatlas.com) (check them out!)
+ [XXIIVV's webring](https://webring.xxiivv.com/) and the [University of Waterloo's CS webring](https://cs.uwatering.com/) were the two biggest sources of inspiration for the [The Rice Atlas](https://riceatlas.com) (check them out!)
