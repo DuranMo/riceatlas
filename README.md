@@ -2,7 +2,7 @@
 
 The unofficial webring for students at Rice University.
 
-## Join
+## Join the Webring
 
 1. Add the [widget](#widget) to your website, usually in the footer.
 2. Fork this repository and add yourself to the bottom of `members.json`:
